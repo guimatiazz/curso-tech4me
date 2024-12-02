@@ -1,0 +1,12 @@
+.titulo{
+   color: rgb(96, 160, 1);
+}
+
+.marcadores{
+  color: rgb(96, 160, 1);;
+}
+
+::selection{
+    color: white;
+    background-color: rgb(96, 160, 1);
+}

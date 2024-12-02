@@ -1,0 +1,15 @@
+.filme {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.preestreia {
+    border-left: 3px solid rgb(3, 3, 95);
+    margin: 0px;
+}
+
+.estreias {
+    border-left: 3PX SOLID rgb(3, 3, 95);
+    margin: 5px;
+}

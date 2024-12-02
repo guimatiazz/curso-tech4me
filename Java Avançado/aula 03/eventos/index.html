@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo para o container do formulário */
+#meuformulario {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Estilo para o rótulo do formulário */
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Estilo para o campo de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #004494;
+    transform: translateY(0);
+}
+
+/* Estilo específico para o botão 'Exibir nomes' */
+#exibir {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+#exibir:hover {
+    background-color: #218838;
+}
+
+/* Estilo para o botão 'Enviar' dentro do formulário */
+form button[type="submit"] {
+    background-color: #dc3545;
+}
+
+form button[type="submit"]:hover {
+    background-color: #c82333;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+    #meuformulario {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button:last-of-type {
+        margin-bottom: 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <button id="botao" onclick="">Enviar</button>
+
+    <form id="meuformulario">
+        <label for="nome">Nome</label>
+        <input type="text" id="name" name="name">
+        <button id="exibir">Exibir nomes</button>
+        <button type="submit">Enviar
+        </button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

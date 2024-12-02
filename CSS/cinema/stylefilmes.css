@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.filme{
+    margin: 20px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    border-left: 3px solid blue;
+    padding-left: 10px;
+}
+
+.imagem img{
+    width: 142px;
+    border: 8px solid black;
+    box-sizing: border-box;
+
+}
+
+.sinopse{
+    display: flex;
+
+}
+
+

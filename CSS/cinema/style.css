@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+header{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.estreias{
+    margin: 20px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    border-left: 3px solid blue;
+    padding-left: 10px;
+}
+
+.estreias p{
+    color: brown;
+}
+
+.filmes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filme img{
+    width: 142px;
+    border: 8px solid black;
+    box-sizing: border-box;
+}
+
+.filme{
+    width: 142px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 10px;
+    transition: 0.2s;
+
+}
+
+main{
+    margin-left: 150px;
+    width: 648px;
+}
+
+.filme a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.filme:hover{
+    transform: scale(1.05);
+}

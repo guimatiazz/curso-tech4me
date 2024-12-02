@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caixa{
+            width: 50px;
+            height: 50pc;
+            background-color: red;
+            animation: aumentar;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-direction: forwards linear;
+        }
+
+        @keyframes aumentar{
+            0%{
+                rotate: 0deg;
+            }
+            50%{
+                width: 250px;
+            }
+
+            100%{
+                width: 100px;
+            }
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa"></div>
+</body>
+</html>

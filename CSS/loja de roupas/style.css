@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: rgb(21, 11, 66);
+    box-shadow: 0px 10px 10px rgb(21, 11, 66);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color:#d4c9e2;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+nav ul {
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.linkbarra {
+    text-decoration: none;
+    color: #d4c9e2;
+    font-weight: 400;
+    border-bottom: solid 1px transparent;
+    transition: 0.6s;
+}
+
+.linkbarra:hover {
+    border-bottom: solid 1px #d4c9e2;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-right: 25px;
+}
+
+.botoes button {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border: none;
+    background-color: #d4c9e2;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.botoes button a {
+    text-decoration: none;
+    color: #12372A;
+    font-weight: 415;
+}
+
+.botoes button:hover {
+    scale: 1.03;
+    opacity: 0.8;
+}
+
+body{
+    background-color: rgb(76, 66, 124);
+}
+
+.tituloroupas{
+    text-shadow: 0px 1px 2px rgb(119, 110, 168);
+    color: rgb(119, 110, 168);
+    padding-top: 20px;
+    margin: 0 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.5px;
+}
+
+.cards{
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    box-shadow: 2px 2px 20px #d4c9e2;
+    background-color: #d4c9e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d4c9e2;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    transition: 0.6s;
+}
+
+.card img{
+    border-radius: 20px;
+    width: 220px;
+    height: 330px;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+
+.card h2{
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.card p{
+    font-size: 14px;
+}
+
+.card a p span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card a{
+    text-decoration: none;
+    color: #12372A;
+}
+
+.card:hover{
+    scale: 1.02;
+    z-index: 1;
+}

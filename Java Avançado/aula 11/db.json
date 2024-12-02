@@ -1,0 +1,26 @@
+{
+    "alunos":[
+        {
+            "id": "1",
+            "nome": "granito",
+            "media": 8,
+            "status": "aprovado"
+        },
+        {
+            "id": "2",
+            "nome": "gui",
+            "media": 7,
+            "status": "aprovado"
+        },
+        {
+            "id": "3",
+            "nome": "leo",
+            "media": 6,
+            "status": "reprovado"
+        }
+                
+
+    ]
+}
+
+

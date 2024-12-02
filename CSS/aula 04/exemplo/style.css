@@ -1,0 +1,21 @@
+
+
+body{ 
+    background-image: url("https://images.impresa.pt/expresso/2023-10-26-Alta_GettyImages-1254601396_T-_IDP.jpg-d75ba7de/original/mw-860");
+    background-size: cover;
+    font-family: "DM Sans";
+}
+
+svg{
+    width: 25px;
+}
+   
+h1{
+    background-color: blue;
+    text-align: center;
+}
+
+h1.hover{
+    color: red;
+    fill: red;
+}

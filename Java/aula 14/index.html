@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+<body>
+    <h1>Cadastrar Alunos</h1>
+    <div class="cadastro">
+        <input type="text" placeholder="Nome do aluno" id="nome">
+        <br>
+        <br>
+        <input type="number" placeholder="Idade do aluno" id="idade">
+        <br>
+        <br>
+        <input type="number" placeholder="Matrícula do aluno" id="matricula">
+        <br>
+        <br>
+        <button onclick="cadastrarAluno()">Cadastrar alunos</button>
+        <br>
+        <br>
+        <button onclick="exibirAlunos()">Exibir alunos cadastrados</button>
+
+        <ul id="lista-de-alunos">
+
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
